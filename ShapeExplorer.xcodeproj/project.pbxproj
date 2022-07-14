@@ -11,6 +11,9 @@
 		DAB01A2728807763008605E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A2628807763008605E8 /* ContentView.swift */; };
 		DAB01A2928807764008605E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB01A2828807764008605E8 /* Assets.xcassets */; };
 		DAB01A2D28807764008605E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB01A2C28807764008605E8 /* Preview Assets.xcassets */; };
+		DAB01A34288077B1008605E8 /* BezierShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A33288077B1008605E8 /* BezierShapes.swift */; };
+		DAB01A3628807865008605E8 /* Paths+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A3528807865008605E8 /* Paths+Extenstions.swift */; };
+		DAB01A3828807A15008605E8 /* TestShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A3728807A15008605E8 /* TestShapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		DAB01A2828807764008605E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB01A2A28807764008605E8 /* ShapeExplorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapeExplorer.entitlements; sourceTree = "<group>"; };
 		DAB01A2C28807764008605E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAB01A33288077B1008605E8 /* BezierShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierShapes.swift; sourceTree = "<group>"; };
+		DAB01A3528807865008605E8 /* Paths+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Paths+Extenstions.swift"; sourceTree = "<group>"; };
+		DAB01A3728807A15008605E8 /* TestShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				DAB01A2428807763008605E8 /* ShapeExplorerApp.swift */,
 				DAB01A2628807763008605E8 /* ContentView.swift */,
+				DAB01A3728807A15008605E8 /* TestShapes.swift */,
+				DAB01A33288077B1008605E8 /* BezierShapes.swift */,
+				DAB01A3528807865008605E8 /* Paths+Extenstions.swift */,
 				DAB01A2828807764008605E8 /* Assets.xcassets */,
 				DAB01A2A28807764008605E8 /* ShapeExplorer.entitlements */,
 				DAB01A2B28807764008605E8 /* Preview Content */,
@@ -139,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB01A3628807865008605E8 /* Paths+Extenstions.swift in Sources */,
+				DAB01A34288077B1008605E8 /* BezierShapes.swift in Sources */,
+				DAB01A3828807A15008605E8 /* TestShapes.swift in Sources */,
 				DAB01A2728807763008605E8 /* ContentView.swift in Sources */,
 				DAB01A2528807763008605E8 /* ShapeExplorerApp.swift in Sources */,
 			);
