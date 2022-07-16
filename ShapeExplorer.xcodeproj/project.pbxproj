@@ -44,6 +44,7 @@
 		DAB01A1828807762008605E8 = {
 			isa = PBXGroup;
 			children = (
+				DAB5D6362883217200E11198 /* docs */,
 				DAB01A2328807763008605E8 /* ShapeExplorer */,
 				DAB01A2228807762008605E8 /* Products */,
 			);
@@ -65,7 +66,6 @@
 				DAB01A3728807A15008605E8 /* TestShapes.swift */,
 				DAB01A33288077B1008605E8 /* BezierShapes.swift */,
 				DAB01A3528807865008605E8 /* Paths+Extenstions.swift */,
-				DAB5D6362883217200E11198 /* docs */,
 				DAB01A2828807764008605E8 /* Assets.xcassets */,
 				DAB01A2A28807764008605E8 /* ShapeExplorer.entitlements */,
 				DAB01A2B28807764008605E8 /* Preview Content */,
