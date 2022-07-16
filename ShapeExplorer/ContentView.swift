@@ -4,7 +4,7 @@
 //
 //  Created by Labtanza on 7/14/22.
 //
-//TODO: Strokes as insets? 
+//TODO: Strokes as insets?
 
 import SwiftUI
 
@@ -34,7 +34,6 @@ struct ContentView: View {
                 ScaledView(bezierPath: testShapeSQR).border(.black)
                 ScaledToFill(bezierPath: testShapeSQR).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).aspectRatio((Path(testShapeSQR.cgPath).naturalAspectRatio), contentMode: .fit).border(.black)
             }
-            //            ScaledToAspect(bezierPath: testShapeSQR).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).border(.green)
         }
     }
 }

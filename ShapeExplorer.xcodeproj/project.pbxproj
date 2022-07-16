@@ -14,6 +14,7 @@
 		DAB01A34288077B1008605E8 /* BezierShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A33288077B1008605E8 /* BezierShapes.swift */; };
 		DAB01A3628807865008605E8 /* Paths+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A3528807865008605E8 /* Paths+Extenstions.swift */; };
 		DAB01A3828807A15008605E8 /* TestShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A3728807A15008605E8 /* TestShapes.swift */; };
+		DAB5D6382883218100E11198 /* Screen_Shot_MultipleShapes.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5D6372883218100E11198 /* Screen_Shot_MultipleShapes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DAB01A33288077B1008605E8 /* BezierShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierShapes.swift; sourceTree = "<group>"; };
 		DAB01A3528807865008605E8 /* Paths+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Paths+Extenstions.swift"; sourceTree = "<group>"; };
 		DAB01A3728807A15008605E8 /* TestShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapes.swift; sourceTree = "<group>"; };
+		DAB5D6372883218100E11198 /* Screen_Shot_MultipleShapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_Shot_MultipleShapes.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DAB01A3728807A15008605E8 /* TestShapes.swift */,
 				DAB01A33288077B1008605E8 /* BezierShapes.swift */,
 				DAB01A3528807865008605E8 /* Paths+Extenstions.swift */,
+				DAB5D6362883217200E11198 /* docs */,
 				DAB01A2828807764008605E8 /* Assets.xcassets */,
 				DAB01A2A28807764008605E8 /* ShapeExplorer.entitlements */,
 				DAB01A2B28807764008605E8 /* Preview Content */,
@@ -76,6 +79,14 @@
 				DAB01A2C28807764008605E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAB5D6362883217200E11198 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5D6372883218100E11198 /* Screen_Shot_MultipleShapes.png */,
+			);
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB5D6382883218100E11198 /* Screen_Shot_MultipleShapes.png in Resources */,
 				DAB01A2D28807764008605E8 /* Preview Assets.xcassets in Resources */,
 				DAB01A2928807764008605E8 /* Assets.xcassets in Resources */,
 			);

@@ -8,6 +8,8 @@
 import SwiftUI
 
 
+//A squarish path for testing. Complex logo from:
+//https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-uibezierpath-and-cgpath-in-swiftui
 var testShapeSQR:UIBezierPath {
     let path = UIBezierPath()
     path.move(to: CGPoint(x: 0.534, y: 0.5816))
@@ -19,6 +21,7 @@ var testShapeSQR:UIBezierPath {
     return path
 }
 
+//A shape that is wider than it is tall (maybe?) processed from SVG
 var testShapeWIDE:UIBezierPath {
     let shape = UIBezierPath()
     shape.move(to:CGPoint(x:0.1999748726675854, y:0.0014777218307084894))
