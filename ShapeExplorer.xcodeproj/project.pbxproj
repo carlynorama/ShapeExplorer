@@ -13,7 +13,7 @@
 		DAB01A2D28807764008605E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB01A2C28807764008605E8 /* Preview Assets.xcassets */; };
 		DAB01A34288077B1008605E8 /* BezierShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A33288077B1008605E8 /* BezierShapes.swift */; };
 		DAB01A3628807865008605E8 /* Paths+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A3528807865008605E8 /* Paths+Extenstions.swift */; };
-		DAB01A3828807A15008605E8 /* TestShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A3728807A15008605E8 /* TestShapes.swift */; };
+		DAB01A3828807A15008605E8 /* TestShapePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB01A3728807A15008605E8 /* TestShapePaths.swift */; };
 		DAB5D6382883218100E11198 /* Screen_Shot_MultipleShapes.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5D6372883218100E11198 /* Screen_Shot_MultipleShapes.png */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		DAB01A2C28807764008605E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAB01A33288077B1008605E8 /* BezierShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierShapes.swift; sourceTree = "<group>"; };
 		DAB01A3528807865008605E8 /* Paths+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Paths+Extenstions.swift"; sourceTree = "<group>"; };
-		DAB01A3728807A15008605E8 /* TestShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapes.swift; sourceTree = "<group>"; };
+		DAB01A3728807A15008605E8 /* TestShapePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapePaths.swift; sourceTree = "<group>"; };
 		DAB5D6372883218100E11198 /* Screen_Shot_MultipleShapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_Shot_MultipleShapes.png; sourceTree = "<group>"; };
 		DAB5D6392883240500E11198 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +65,7 @@
 			children = (
 				DAB01A2428807763008605E8 /* ShapeExplorerApp.swift */,
 				DAB01A2628807763008605E8 /* ContentView.swift */,
-				DAB01A3728807A15008605E8 /* TestShapes.swift */,
+				DAB01A3728807A15008605E8 /* TestShapePaths.swift */,
 				DAB01A33288077B1008605E8 /* BezierShapes.swift */,
 				DAB01A3528807865008605E8 /* Paths+Extenstions.swift */,
 				DAB01A2828807764008605E8 /* Assets.xcassets */,
@@ -164,7 +164,7 @@
 			files = (
 				DAB01A3628807865008605E8 /* Paths+Extenstions.swift in Sources */,
 				DAB01A34288077B1008605E8 /* BezierShapes.swift in Sources */,
-				DAB01A3828807A15008605E8 /* TestShapes.swift in Sources */,
+				DAB01A3828807A15008605E8 /* TestShapePaths.swift in Sources */,
 				DAB01A2728807763008605E8 /* ContentView.swift in Sources */,
 				DAB01A2528807763008605E8 /* ShapeExplorerApp.swift in Sources */,
 			);
