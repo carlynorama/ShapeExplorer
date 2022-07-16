@@ -18,18 +18,28 @@ struct ContentView: View {
                 Circle().stroke(color, style: (StrokeStyle(lineWidth: 20.0))).border(.black)
                 Circle().size(width: 40, height: 40).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).border(.black)
             }
-            
+            Spacer()
             Group {
+                Divider()
                 Text("Scaling shapes from a UIBezierPath.")
                 ScaledToFill(bezierPath: testShapeWIDE).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).border(.black)
                 ScaledToFit(bezierPath: testShapeWIDE).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).border(.black)
+                //Using .fixedsize() does communicate boundaries to the parent, but without parameters enforces actual path size, which in this case was normalized to be values between 0 and 1."
+                ScaledToFit(bezierPath: testShapeWIDE).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).fixedSize().border(.black)
+                
+                
             }
+            Spacer()
             Group {
+                Divider()
                 Text("Scaling shapes from a UIBezierPath, with shapeThatFits.")
                 ScaledWithOpinions(bezierPath: testShapeWIDE).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).border(.black)
                 ScaledWithPreservedRatio(bezierPath: testShapeWIDE).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).border(.black)
             }
+            Spacer()
             Group {
+                Divider()
+                
                 Text("Scaling shapes from a UIBezierPath, complex")
                 ScaledView(bezierPath: testShapeSQR).border(.black)
                 ScaledToFill(bezierPath: testShapeSQR).stroke(color, style: (StrokeStyle(lineWidth: 20.0))).aspectRatio((Path(testShapeSQR.cgPath).naturalAspectRatio), contentMode: .fit).border(.black)
