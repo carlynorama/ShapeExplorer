@@ -28,6 +28,7 @@
 		DAB01A3528807865008605E8 /* Paths+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Paths+Extenstions.swift"; sourceTree = "<group>"; };
 		DAB01A3728807A15008605E8 /* TestShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapes.swift; sourceTree = "<group>"; };
 		DAB5D6372883218100E11198 /* Screen_Shot_MultipleShapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_Shot_MultipleShapes.png; sourceTree = "<group>"; };
+		DAB5D6392883240500E11198 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		DAB01A1828807762008605E8 = {
 			isa = PBXGroup;
 			children = (
+				DAB5D6392883240500E11198 /* README.md */,
 				DAB5D6362883217200E11198 /* docs */,
 				DAB01A2328807763008605E8 /* ShapeExplorer */,
 				DAB01A2228807762008605E8 /* Products */,
